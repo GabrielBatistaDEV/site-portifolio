@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #111; /* Preto mais escuro */
+    color: #eee; /* Cinza claro para o texto */
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #222; /* Preto um pouco mais claro */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em;
+    color: #ff4d4d; /* Vermelho */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+section {
+    background-color: #1a1a1a; /* Outro tom de preto */
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #ff4d4d; /* Vermelho */
+    border-bottom: 2px solid #ff4d4d;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+section p, section li {
+    line-height: 1.6;
+}
+
+section ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.experiencia-item, .educacao-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #333;
+}
+
+.experiencia-item h3, .educacao-item h3 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #ff4d4d; /* Vermelho para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
